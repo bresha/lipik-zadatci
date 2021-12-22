@@ -34,7 +34,7 @@ print(kmeans.labels_)
 
 print(kmeans.cluster_centers_)
 
-# show_clusters(X, kmeans.labels_)
+show_clusters(X, kmeans.labels_)
 
 new_points = np.array([[0, 0], [12, 3]])
 
