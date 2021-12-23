@@ -3,10 +3,10 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
 data = pd.read_csv('Mall_Customers.csv')
-print(data.head(5))
+# print(data.head(5))
 
 X = data.iloc[:, -2:]
-print(X.shape)
+# print(X.shape)
 
 inertia = list()
 K = range(1, 10)
