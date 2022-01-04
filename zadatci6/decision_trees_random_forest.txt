@@ -1,0 +1,29 @@
+0) Ponovno prođite kroz prezentaciju
+
+1) Pronađite na webu dataset po izboru kojeg ćete koristiti za zadatke (na sklearn datasets)
+
+2) Primjenite algoritam stabla odluke nad tim datasetom
+3) Prikažite dobivene rezultate + prikažite grafički cijelo stablo
+4) Implementirajte različite dostupne parametre (poput random_state) u funkciji train_test_split, te nakon toga ponovno izvršite klasifikator
+5) Napišite što ste primjetili
+6) Implementirajte različite mjere za određivanje odabira atributa (te na taj način promjenite algoritam koji koristite za klasifikator stabla odluke)
+7) Isprobajte klasifikacijski i regresijski decision tree nad različitim skupovima podataka
+
+8) Primjenite algoritam slučajne šume nad vašim datasetom
+9) Prikažite dobivene rezultate
+10) Implementirajte različite dostupne parametre (poput n_estimators) unutar funkcije klasifikatora
+11) Napišite što ste primjetili
+
+12) Odabir najbolje značajke za čvor (izračun)
+
+Dan	Vrijeme		Temperatura		Vlaga		Vjetar		Igrati?
+1	sunce		visoka			visoka		slab		ne
+2	kiša		niska			visoka		jak		da
+3	oblačno		srednja			visoka		slab		ne
+4	sunce		visoka			visoka		jak		da
+5	kiša		niska			normalna	slab		ne
+6	oblačno		srednja			normalna	jak		da
+7	sunce		visoka			normalna	slab		ne
+8	kiša		visoka			normalna	jak		da
+9	oblačno		niska			visoka		jak		ne
+10	sunce		srednja			normalna	slab		da
