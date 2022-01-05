@@ -1,0 +1,25 @@
+0) Ponovno prođite kroz prezentaciju
+
+1) Pronađite na webu više datasetova po izboru koje ćete koristiti za zadatke (na sklearn datasets i kaggle)
+
+SVM
+
+2) Primjenite dostupne klasifikacijske SVM algoritme nad vašim datasetovima
+3) Prikažite dobivene rezultate sa defaultnim parametrima
+4) Implementirajte različite dostupne parametre unutar svih funkcije klasifikatora
+5) Prikažite dobivene rezultate
+6) Implementirajte regresijski SVM i prikažite rezultate
+
+
+NAIVNI BAYES
+
+7) Primijenite Gausov algoritam nad različitim datasetovima
+8) Prikažite dobivene rezultate
+
+9) Primijenite Multinominalni algoritam nad različitim datasetovima
+10) Prikažite dobivene rezultate
+
+11) Primijenite Bernoullijev algoritam nad različitim datasetovima
+12) Prikažite dobivene rezultate
+
+13) Usporedite sva tri algoritma (njihove rezultate) i izvedite zaključak
