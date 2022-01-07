@@ -1,0 +1,35 @@
+1) Odaberite i proučite različite vrste skupova podataka sa: scikit-learn.org/stable/datasets.html, kako biste primjenili binarnu klasifikaciju, višeklasnu klasifikaciju, regresiju, rad sa manjim i većim skupovima podataka, tekstualnim i numeričkim podacima
+
+2) Primijenite LinearRegression() sa defaultnim parametrima nad odabranim skupovima podataka, te prikažite dobivene rezultate. Nakon toga primijenite LinearRegression() sa različitim vrijednostima parametara nad odabranim skupovima podataka, te prikažite dobivene rezultate i na kraju izvedite zaključak
+
+3) Primijenite LogisticRegression() sa defaultnim parametrima nad odabranim skupovima podataka, te prikažite dobivene rezultate. Nakon toga primijenite LogisticRegression() sa različitim vrijednostima parametara nad odabranim skupovima podataka, te prikažite dobivene rezultate i na kraju izvedite zaključak 
+
+4) Primijenite KNeighborsClassifier() sa defaultnim parametrima nad odabranim skupovima podataka, te prikažite dobivene rezultate. Nakon toga primijenite KNeighborsClassifier() sa različitim vrijednostima parametara nad odabranim skupovima podataka, te prikažite dobivene rezultate i na kraju izvedite zaključak
+
+5) Primijenite KNeighborsRegressor() sa defaultnim parametrima nad odabranim skupovima podataka, te prikažite dobivene rezultate. Nakon toga primijenite KNeighborsRegressor() sa različitim vrijednostima parametara nad odabranim skupovima podataka, te prikažite dobivene rezultate i na kraju izvedite zaključak 
+
+6) Primijenite KMeans() sa defaultnim parametrima nad odabranim skupovima podataka, te prikažite dobivene rezultate. Nakon toga primijenite KMeans() sa različitim vrijednostima parametara nad odabranim skupovima podataka, te prikažite dobivene rezultate i na kraju izvedite zaključak 
+
+7) Primijenite MLPClassifier() sa defaultnim parametrima nad odabranim skupovima podataka, te prikažite dobivene rezultate. Nakon toga primijenite MLPClassifier() sa različitim vrijednostima parametara nad odabranim skupovima podataka, te prikažite dobivene rezultate i na kraju izvedite zaključak 
+   
+8) Primijenite DecisionTreeClassifier() sa defaultnim parametrima nad odabranim skupovima podataka, te prikažite dobivene rezultate. Nakon toga primijenite DecisionTreeClassifier() sa različitim vrijednostima parametara nad odabranim skupovima podataka, te prikažite dobivene rezultate i na kraju izvedite zaključak
+
+9) Primijenite DecisionTreeRegressor() sa defaultnim parametrima nad odabranim skupovima podataka, te prikažite dobivene rezultate. Nakon toga primijenite DecisionTreeRegressor() sa različitim vrijednostima parametara nad odabranim skupovima podataka, te prikažite dobivene rezultate i na kraju izvedite zaključak
+
+10) Primijenite RandomForestClassifier() sa defaultnim parametrima nad odabranim skupovima podataka, te prikažite dobivene rezultate. Nakon toga primijenite RandomForestClassifier() sa različitim vrijednostima parametara nad odabranim skupovima podataka, te prikažite dobivene rezultate i na kraju izvedite zaključak
+
+11) Primijenite SVC() sa defaultnim parametrima nad odabranim skupovima podataka, te prikažite dobivene rezultate. Nakon toga primijenite SVC() sa različitim vrijednostima parametara nad odabranim skupovima podataka, te prikažite dobivene rezultate i na kraju izvedite zaključak
+
+12) Primijenite SVR() sa defaultnim parametrima nad odabranim skupovima podataka, te prikažite dobivene rezultate. Nakon toga primijenite SVR() sa različitim vrijednostima parametara nad odabranim skupovima podataka, te prikažite dobivene rezultate i na kraju izvedite zaključak
+
+13) Primijenite GaussianNB() sa defaultnim parametrima nad odabranim skupovima podataka, te prikažite dobivene rezultate. Nakon toga primijenite GaussianNB() sa različitim vrijednostima parametara nad odabranim skupovima podataka, te prikažite dobivene rezultate i na kraju izvedite zaključak
+
+14) Primijenite MultinomialNB() sa defaultnim parametrima nad odabranim skupovima podataka, te prikažite dobivene rezultate. Nakon toga primijenite MultinomialNB() sa različitim vrijednostima parametara nad odabranim skupovima podataka, te prikažite dobivene rezultate i na kraju izvedite zaključak
+
+15) Primijenite BernoulliNB() sa defaultnim parametrima nad odabranim skupovima podataka, te prikažite dobivene rezultate. Nakon toga primijenite BernoulliNB() sa različitim vrijednostima parametara nad odabranim skupovima podataka, te prikažite dobivene rezultate i na kraju izvedite zaključak
+
+16) Usporedite rezultate algoritama i napišite zaključak
+
+17) Ponovite algoritme nadziranog učenja kroz vizualne primjere: https://ml-playground.com/
+
+18) Ponovite neuronske mreže kroz vizualne primjere: https://playground.tensorflow.org
