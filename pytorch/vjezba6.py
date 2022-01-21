@@ -66,9 +66,25 @@ def train(train_dataloader, model, loss_fn, optim, current_epoch):
             running_loss = 0
 
 
+def validate(val_dataloader, model):
+    correct = 0
+    total = 0
+
+    with torch.no_grad():
+        for images, labels in val_dataloader:
+            images, labels = images.to(device), labels.to(device)
+            
+            outputs = model(images)
+
+            _, predicted = torch.max(outputs.data, 1)
+            
+            total += labels.size(0)
+            correct += (predicted == labels).sum().item()
+
+    print('Accuracy: ', 100 * correct // total)
 
 
 
 for epoch in range(NUM_OF_EPOCHS):
     train(mnist_dataloader_train, model, loss_fn, optimizer, epoch)
-    # validate()
+    validate(mnsit_dataloader_val, model)
