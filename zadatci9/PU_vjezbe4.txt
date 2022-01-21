@@ -1,0 +1,6 @@
+1) Prođite ponovno kroz prezentaciju i probajte shvatiti/razumjeti koncepte MPO-a I DP koje smo prošli
+2) Napišite jednadžbu za v_pi s obzirom na q_pi i pi
+3) Napišite jednadžbu za q_pi s obzirom na v_pi i p funkciju sa 4 argumenta
+4) Napišite jednadžbu za v* s obzirom na q*
+5) Napišite jednadžbu za q* s obzirom na na v* i p funkciju sa 4 argumenta
+6) Napišite jednadžbu za pi* s obzirom na q* 

@@ -1,0 +1,12 @@
+1) Ponovno prođite kroz prezentaciju
+2) Osmislite tri vlastita primjera zadatka koji se uklapaju u MPO okvir,
+definirajući njegova stanja, radnje i nagrade. Neka tri primjera budu različita
+jedan od drugog koliko god je to moguće
+3) Je li okvir MPO-a prikladan za korisno predstavljanje svih zadataka kod učenja usmjerenog k cilju?
+Možete li se sjetiti nekih jasnih izuzetaka?
+4) Pretpostavite da ste balansiranje motke tretirali kao epizodni zadatak, ali ste također koristili
+popust, sa svim nagradama nula osim za neuspjeh koji ima nagradu -1.
+Što bi onda bio povrat u svakom trenutku? Kako se ovaj povrat razlikuje od onog u sniženoj, kontinuiranoj
+formulaciji ovog zadatka?
+5) Pretpostavite da je gama=0.5 i da je sljedeći niz primljenih nagrada: R1=-1, R2=2, R3=6, R4=3, R5=2, sa T=5. 
+Koliko iznose G0, G1,...,G5? Hint: Rješavajte unatrag

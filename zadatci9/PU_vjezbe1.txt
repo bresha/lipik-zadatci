@@ -1,0 +1,16 @@
+1) Detaljno ponovite prezentaciju, kako bi vam sjeli osnovni pojmovi i koncepti podržanog učenja
+
+Zadaci vezani za križić-kružić primjer:
+2) Umjesto za igrate protiv random protivnika, algoritam podržanog učenja iz primjera je igrao sam protiv sebe, na način da obje strane uče. 
+Razmislite što bi se dogodilo u tom slučaju? 
+Da li bi naučio različitu strategiju za odabir poteza/akcija?
+
+3) Mnoge pozicije u križić-kružić igri se čine drugačijima, no u stvarnosti su iste zbog simetrije. 
+Kako možemo popraviti postupak učenja opisan u primjeru koristeći tu činjenicu?
+Na koje bi načine ta promjena poboljšala postupak učenja?
+
+4) Pretpostavimo da je agent pohlepan, tj. da uvijek igra onaj potez koji ga dovodi u položaj koji ima najveću vrijednost. 
+Hoće li se takav agent naučiti igrati bolje ili lošije od agenta koji nije pohlepan? 
+Koji bi se problemi mogli dogoditi?
+
+5) Istražite, proučite i isprobajte PU na: https://gym.openai.com/
