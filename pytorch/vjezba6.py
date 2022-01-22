@@ -66,9 +66,25 @@ def train(train_dataloader, model, loss_fn, optim, current_epoch):
             running_loss = 0
 
 
+def test(dataloader, model, loss_fn):
+    size = len(dataloader.dataset)
+    model.eval()
+    test_loss, correct = 0, 0
+    with torch.no_grad():
+        for images, labels in dataloader:
+            images, labels = images.to(device), labels.to(device)
+            pred = model(images)
+            test_loss += loss_fn(pred, labels).item()
+            correct += (pred.argmax(1) == labels).type(torch.float).sum().item()
+    test_loss /= size
+    correct /= size
+    print("Accuracy: " + str(100 * correct) + "%, Average loss: " + str(test_loss))
+
+
 def validate(val_dataloader, model):
     correct = 0
     total = 0
+    all_preds = torch.tensor([])
 
     with torch.no_grad():
         for images, labels in val_dataloader:
@@ -87,4 +103,6 @@ def validate(val_dataloader, model):
 
 for epoch in range(NUM_OF_EPOCHS):
     train(mnist_dataloader_train, model, loss_fn, optimizer, epoch)
-    validate(mnsit_dataloader_val, model)
+    test(mnsit_dataloader_val, model, loss_fn)
+
+torch.save(model, 'model.pt')
